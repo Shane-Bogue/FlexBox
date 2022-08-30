@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            flex-direction: row;
+            margin: 0;
+            height: 100vh;
+            padding: 0px 20%;
+        }
+
+        .💪 {
+            display: flex;
+        }
+
+        .🔻 {
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .🟥 {
+            background-color: yellow;
+            margin: .5rem;
+        }
+        
+    </style>
+
+</head>
+<body class="💪">
+    <div class="💪 🔻">
+        <div class="🟥" style="flex-grow:6; background-color: #1d1d1d;"></div>
+        <div class="🟥" style="flex-grow:1;"></div>
+    </div>
+    <div class="💪 🔻">
+        <div class="🟥" style="flex-grow:5.75; background-color: #ff637d;"></div>
+        <div class="🟥" style="flex-grow:8; background-color: #32b0ff;"></div>
+    </div>
+    <div class="💪 🔻">
+        <div class="🟥" style="flex-grow:3;"></div>
+        <div class="🟥" style="flex-grow:3;"></div>
+        <div class="🟥" style="flex-grow:1; background-color: #e6e6e6;"></div>
+    </div>
+    <div class="💪 🔻">
+        <div class="🟥" style="flex-grow:6;"></div>
+        <div class="🟥" style="flex-grow:1;"></div>
+    </div>
+</body>
+</html>
